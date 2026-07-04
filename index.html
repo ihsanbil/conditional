@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Food Menu App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🍽️ Warung Komputer</h1>
+  <div class="box">
+    <p>Pilih makanan favoritmu:</p>
+    <select id="makanan">
+      <option value="cireng">🍚 Cireng</option>
+      <option value="mie">🍜 Mie Ayam</option>
+      <option value="sate">🍢 Sate Ayam</option>
+      <option value="es">🧊 Es Teh</option>
+    </select>
+    <br>
+    <label>Jumlah porsi:</label>
+    <input type="number" id="jumlah" value="1" min="1">
+    <br>
+    <button onclick="pesan()">🛒 Pesan Sekarang</button>
+    <div id="hasil">Hasil pesanan muncul di sini...</div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
